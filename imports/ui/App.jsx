@@ -6,9 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import Home   from '/imports/ui/pages/Home';
 import Signin from '/imports/ui/pages/Signin';
 import Signup from '/imports/ui/pages/Signup';
-import maison from '/imports/ui/pages/maison';
-import jokes from '/imports/ui/pages/jokes';
-import newjokes from '/imports/ui/pages/newjokes';
+import room from '/imports/ui/pages/room';
+import Jokes from '/imports/ui/pages/Jokes';
+import Newjokes from '/imports/ui/pages/Newjokes';
 
 const App = () => {
   return (
@@ -17,9 +17,9 @@ const App = () => {
         <Route exact path="/" component={Home}   />
         <Route path="/signin" component={Signin} />
         <Route path="/signup" component={Signup} />
-        <Route path="/maison" component={maison} />
-        <Route path="/jokes" component={jokes} />
-        <Route path="/newjokes" component={newjokes} />
+        <Route path="/room" component={room} />
+        <Route path="/Jokes" component={Jokes} />
+        <Route path="/Newjokes" component={Newjokes} />
       </Switch>
       <ToastContainer />
     </Router>
