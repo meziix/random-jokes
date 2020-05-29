@@ -7,11 +7,11 @@ import Button    from 'react-bootstrap/Button';
 const Home = () => {
     return (
         <Container>
-            <Button variant="success" as={Link} to="/signin" block>
-                J'ai déjà un compte
+            <Button variant="success" type="submit" as={Link} to="/newjokes" block>
+                Déposer une blague
             </Button>
-            <Button variant="warning" as={Link} to="/signup" block>
-                Je n'ai pas encore de compte
+            <Button variant="success" as={Link} to="/jokes" block>
+                Récupérer une blague
             </Button>
         </Container>
     );
